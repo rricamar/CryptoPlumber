@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		8B5041552886B16600DF29C2 /* CryptoPlumberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5041542886B16600DF29C2 /* CryptoPlumberApp.swift */; };
 		8B5041572886B16600DF29C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5041562886B16600DF29C2 /* ContentView.swift */; };
-		8B5041592886B16A00DF29C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5041582886B16A00DF29C2 /* Assets.xcassets */; };
 		8B50415C2886B16A00DF29C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B50415B2886B16A00DF29C2 /* Preview Assets.xcassets */; };
+		8B5041632886B37700DF29C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5041622886B37700DF29C2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B5041512886B16600DF29C2 /* CryptoPlumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPlumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5041542886B16600DF29C2 /* CryptoPlumberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPlumberApp.swift; sourceTree = "<group>"; };
 		8B5041562886B16600DF29C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8B5041582886B16A00DF29C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B50415B2886B16A00DF29C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B5041622886B37700DF29C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			children = (
 				8B5041542886B16600DF29C2 /* CryptoPlumberApp.swift */,
 				8B5041562886B16600DF29C2 /* ContentView.swift */,
-				8B5041582886B16A00DF29C2 /* Assets.xcassets */,
+				8B5041622886B37700DF29C2 /* Assets.xcassets */,
 				8B50415A2886B16A00DF29C2 /* Preview Content */,
 			);
 			path = CryptoPlumber;
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5041632886B37700DF29C2 /* Assets.xcassets in Resources */,
 				8B50415C2886B16A00DF29C2 /* Preview Assets.xcassets in Resources */,
-				8B5041592886B16A00DF29C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +272,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,8 +301,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
