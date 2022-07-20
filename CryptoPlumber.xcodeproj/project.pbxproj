@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B21E1D62887E7D300D6768C /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B21E1D52887E7D300D6768C /* CoinModel.swift */; };
 		8B5041552886B16600DF29C2 /* CryptoPlumberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5041542886B16600DF29C2 /* CryptoPlumberApp.swift */; };
 		8B50415C2886B16A00DF29C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B50415B2886B16A00DF29C2 /* Preview Assets.xcassets */; };
 		8B5041632886B37700DF29C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5041622886B37700DF29C2 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		8B21E1D32887DEC000D6768C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8B21E1D52887E7D300D6768C /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		8B5041512886B16600DF29C2 /* CryptoPlumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPlumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5041542886B16600DF29C2 /* CryptoPlumberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPlumberApp.swift; sourceTree = "<group>"; };
 		8B50415B2886B16A00DF29C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B21E1D42887E7B000D6768C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B21E1D52887E7D300D6768C /* CoinModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8B5041482886B16600DF29C2 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 				8B5041622886B37700DF29C2 /* Assets.xcassets */,
 				8B5041672886B8AE00DF29C2 /* App */,
 				8B5041642886B86100DF29C2 /* Extensions */,
+				8B21E1D42887E7B000D6768C /* Models */,
 				8B50416B2886D27F00DF29C2 /* Core */,
 				8B50415A2886B16A00DF29C2 /* Preview Content */,
 			);
@@ -216,6 +227,7 @@
 				8B5041552886B16600DF29C2 /* CryptoPlumberApp.swift in Sources */,
 				8B5041772886D7FC00DF29C2 /* CircleButtonAnimationView.swift in Sources */,
 				8B5041752886D46900DF29C2 /* CircleButtonView.swift in Sources */,
+				8B21E1D62887E7D300D6768C /* CoinModel.swift in Sources */,
 				8B50416A2886B8D600DF29C2 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
