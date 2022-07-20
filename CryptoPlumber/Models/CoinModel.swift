@@ -102,6 +102,10 @@ struct Coin: Identifiable, Codable {
         )
     }
     
+    var getPriceChangePercentage24H: Double {
+        return priceChangePercentage24H ?? 0
+    }
+    
     var currentHoldingValue: Double {
         return (currentHoldings ?? 0) * currentPrice
     }
