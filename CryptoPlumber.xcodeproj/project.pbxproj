@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B21E1D32887DEC000D6768C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8B5041512886B16600DF29C2 /* CryptoPlumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPlumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5041542886B16600DF29C2 /* CryptoPlumberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPlumberApp.swift; sourceTree = "<group>"; };
 		8B50415B2886B16A00DF29C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -41,6 +42,7 @@
 		8B5041482886B16600DF29C2 = {
 			isa = PBXGroup;
 			children = (
+				8B21E1D32887DEC000D6768C /* README.md */,
 				8B5041532886B16600DF29C2 /* CryptoPlumber */,
 				8B5041522886B16600DF29C2 /* Products */,
 			);
