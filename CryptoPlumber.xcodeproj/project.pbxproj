@@ -18,6 +18,7 @@
 		8B5041702886D2D800DF29C2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B50416F2886D2D800DF29C2 /* HomeView.swift */; };
 		8B5041752886D46900DF29C2 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5041742886D46900DF29C2 /* CircleButtonView.swift */; };
 		8B5041772886D7FC00DF29C2 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5041762886D7FC00DF29C2 /* CircleButtonAnimationView.swift */; };
+		8BF79A772897C02100674FBA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF79A762897C02100674FBA /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		8B50416F2886D2D800DF29C2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8B5041742886D46900DF29C2 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		8B5041762886D7FC00DF29C2 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
+		8BF79A762897C02100674FBA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		8B50416E2886D2B000DF29C2 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				8BF79A762897C02100674FBA /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				8B5041702886D2D800DF29C2 /* HomeView.swift in Sources */,
 				8B5041552886B16600DF29C2 /* CryptoPlumberApp.swift in Sources */,
 				8B5041772886D7FC00DF29C2 /* CircleButtonAnimationView.swift in Sources */,
+				8BF79A772897C02100674FBA /* HomeViewModel.swift in Sources */,
 				8B5041752886D46900DF29C2 /* CircleButtonView.swift in Sources */,
 				8B21E1D62887E7D300D6768C /* CoinModel.swift in Sources */,
 				8B21E1DA2888166E00D6768C /* PreviewProvider.swift in Sources */,
