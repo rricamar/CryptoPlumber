@@ -1,10 +1,3 @@
-//
-//  CoinModel.swift
-//  CryptoPlumber
-//
-//  Created by Ruben Sopra on 20/7/22.
-//
-
 struct Coin: Identifiable, Codable {
     
     let id: String

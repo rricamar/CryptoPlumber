@@ -1,16 +1,26 @@
 import SwiftUI
+import Combine
+
 
 class HomeViewModel: ObservableObject {
     
     @Published var allCoins: [Coin] = []
     @Published var portfolioCoins: [Coin] = []
     
+    private let service = CoinService()
+    private var cancellables = Set<AnyCancellable>()
+    
     init() {
-        // TODO: remove after Http service
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            self.allCoins.append(DeveloperPreview.instance.coin)
-            self.portfolioCoins.append(DeveloperPreview.instance.coin)
-        }
+        subscribe()
+    }
+    
+    
+    func subscribe() {
+        service.$coins
+            .sink { [weak self] (coins) in
+                self?.allCoins = coins
+            }
+            .store(in: &cancellables)
     }
     
 }
