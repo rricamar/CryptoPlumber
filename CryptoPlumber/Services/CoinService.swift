@@ -23,7 +23,7 @@ class CoinService {
             )
             .tryMap { (output) -> Data in
                 guard let response = output.response as? HTTPURLResponse,
-                      self.responseHasError(response)
+                      self.responseWithoutError(response)
                 else {
                     throw URLError(.badServerResponse)
                 }
@@ -55,7 +55,7 @@ class CoinService {
         + "&price_change_percentage=24h"
     }
     
-    fileprivate func responseHasError(_ response: HTTPURLResponse) -> Bool {
+    fileprivate func responseWithoutError(_ response: HTTPURLResponse) -> Bool {
         return response.statusCode >= 200 && response.statusCode < 300
     }
     
