@@ -14,6 +14,8 @@ struct HomeView: View {
             VStack {
                 header
                 
+                SearchBarView(searchText: $homeVm.searchText)
+                
                 columnTitles
                 
                 if !showPortfolio {
@@ -37,7 +39,7 @@ extension HomeView {
     private var header: some View {
         HStack {
             CircleButtonView(iconName: showPortfolio ? "plus" : "info")
-                .animation(.none)
+                .animation(.none, value: false)
                 .background(
                     CircleButtonAnimationView(animate: $showPortfolio)
                 )
@@ -48,7 +50,7 @@ extension HomeView {
                 .font(.headline)
                 .fontWeight(.heavy)
                 .foregroundColor(.theme.accent)
-                .animation(.none)
+                .animation(.none, value: false)
             
             Spacer()
             
