@@ -4,6 +4,7 @@ import SwiftUI
 struct HomeView: View {
     
     @EnvironmentObject private var homeVm: HomeViewModel
+    
     @State private var showPortfolio: Bool = false
     
     var body: some View {
@@ -13,6 +14,8 @@ struct HomeView: View {
             
             VStack {
                 header
+                
+                HomeStatsView(showPortfolio: $showPortfolio)
                 
                 SearchBarView(searchText: $homeVm.searchText)
                 
