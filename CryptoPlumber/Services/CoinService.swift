@@ -1,7 +1,6 @@
 import Foundation
 import Combine
 
-
 class CoinService {
     
     @Published var coins: [Coin] = []
